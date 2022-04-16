@@ -1,7 +1,8 @@
 import React from "react";
+import Nav from "../Nav";
 
 
-function Nav() {
+function Header() {
 
     return (
         <header className="flex-row px-1">
@@ -10,8 +11,9 @@ function Nav() {
                     <span>Matt Kolbach</span>
                 </a>
             </h2>
+            <Nav></Nav>
         </header>
     );
 }
 
-export default Nav;
+export default Header;
