@@ -34,7 +34,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
+  background: #b3d1ff;
   color: var(--light);
   font-family: 'Poiret One', cursive;
 
@@ -237,7 +237,7 @@ textarea {
 
 .img-thumbnail {
   width: auto;
-  height: 300px;
+  height: 400px;
   margin-bottom: 50px;
   cursor: pointer;
 }
