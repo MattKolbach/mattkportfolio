@@ -10,8 +10,8 @@ function App() {
     const [contactSelected, setContactSelected] = useState(false);
     const [categories] = useState([
         {
-            name: 'commercial',
-            description: 'Photos of grocery stores, food trucks, and other commercial projects',
+            name: 'portfolio',
+            description: 'Group projects and class assignments.',
         },
         {
             name: 'portraits',
