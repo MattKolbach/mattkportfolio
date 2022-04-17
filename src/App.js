@@ -33,9 +33,7 @@ function App() {
     return (
         <div>
             <Header name="Matt Kolbach">
-                <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} pages={pages} >
-                    
-                </Nav>
+                <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} pages={pages} />
             </Header>
             <main>
                 {currentPage.component}

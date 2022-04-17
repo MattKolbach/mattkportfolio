@@ -4,13 +4,13 @@ import React from "react";
 function Footer() {
 
     return (
-        <header className="flex-row px-1">
+        <footer className="flex-row">
             <h2>
                 <a href="/">
                     <span>This is my footer.</span>
                 </a>
             </h2>
-        </header>
+        </footer>
     );
 }
 

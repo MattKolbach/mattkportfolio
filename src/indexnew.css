@@ -1,0 +1,23 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  header, footer {
+    height: 56px;
+    background-color: #E7E7E7;
+    color: 000000;
+  }
+  
+  body > header {
+    margin-bottom: 1rem;
+  }
+  
+  body > footer {
+    position: sticky;
+    top: 99vh;
+    
+    text-align: center;
+    margin-top: 1rem;
+  }

@@ -5,7 +5,7 @@ import React from "react";
 function Header({children, name}) {
 
     return (
-        <header className="flex-row px-1">
+        <header className="flex-row">
             <h2>
                 <a href="/">
                     <span>{name}</span>
