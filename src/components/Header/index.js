@@ -1,17 +1,17 @@
 import React from "react";
-import Nav from "../Nav";
 
 
-function Header() {
+
+function Header({children, name}) {
 
     return (
         <header className="flex-row px-1">
             <h2>
                 <a href="/">
-                    <span>Matt Kolbach</span>
+                    <span>{name}</span>
                 </a>
             </h2>
-            <Nav></Nav>
+            {children}
         </header>
     );
 }
