@@ -7,15 +7,10 @@ main {
 :root {
   --primary: #8c54ff;
   --secondary: #9429f8;
-  --tertiary: #B12704;
-  --light: #777676;
+  --tertiary: #E7E7E7;
+  --light: #505050;
   --dark: #000000;
   --darker: #111111;
-  --error: rgb(228, 46, 1);
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
-
 }
 
 * {
@@ -39,14 +34,13 @@ body {
 }
 
 header{
-  height: 56px;
-  background-color: #E7E7E7;
-  margin-bottom: 1rem;
+  background-color: var(--tertiary);
+  color: var(--light);
 }
 
 footer {
   height: 56px;
-  background-color: #E7E7E7;
+  background-color: var(--tertiary);
 
   position: fixed;
   width: 100%;
@@ -60,10 +54,6 @@ footer h2 a {
   text-align: center;
 }
 
-header a {
-  color: var(--dark);
-}
-
 h1,
 h2,
 h3,
@@ -72,12 +62,15 @@ h5,
 h6 {
   font-family: monospace, Verdana;
   font-weight: 500;
-  margin: 5px 0;
   line-height: 1.25;
+  margin-bottom: 0;
 }
 
 #contact-container {
-  border:2px solid #9429f8
+  width: 50%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
@@ -110,9 +103,9 @@ p {
 }
 
 a {
-  color: var(--tertiary);
   text-decoration: none;
   font-weight: bold;
+  color: var(--light);
 }
 
 a:hover {
@@ -175,20 +168,16 @@ nav a:hover {
 
 nav  li {
   cursor: pointer;
+  margin: 0 10px;
 }
 
 textarea {
 	width: 100%;
-	border: 3px solid #cccccc;
+	border: 1px solid var(--dark);
+  border-radius: 3px;
 	padding: 5px;
 }
 
-.container {
-  width: 50%;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .flex-row {
   display: flex;
@@ -203,8 +192,6 @@ textarea {
   justify-content: flex-end;
 }
 
-
-
 .card {
   width: 25%;
   text-align: center;
@@ -216,8 +203,6 @@ textarea {
   margin-bottom: 50px;
   cursor: pointer;
 }
-
-
 
 button {
 	background: var(--primary);
@@ -232,14 +217,10 @@ button {
 	padding: 10px 15px;	
 }
 
-a {
-	border-radius: 5px;
-	color: var(--primary);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;	
-}
-
 .navActive {
   color: var(--secondary);
+}
+
+.nav-ul {
+  flex-direction: row;
 }

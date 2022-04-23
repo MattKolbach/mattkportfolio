@@ -40,10 +40,10 @@ function ContactForm() {
 
     //JSX
     return (
-        <section className='container-sm'>
+        <section className='container' id='contact-container'>
             <div>
-                <div class="d-flex justify-content-center">
-                    <h1>Contact me</h1>
+                <div className="d-flex justify-content-center">
+                    <h1 className='align-middle'>Contact me</h1>
                 </div>
             
                 <form id="contact-form" onSubmit={handleSubmit}>

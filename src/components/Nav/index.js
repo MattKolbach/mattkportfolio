@@ -6,8 +6,8 @@ function Nav({currentPage, setCurrentPage, pages}) {
     
 
     return (
-        <nav>
-            <ul className="flex-row">
+        
+            <ul className="nav navbar-nav nav-ul">
                 <li className={`${currentPage === pages[0] && 'navActive'}`} onClick={()=> setCurrentPage(pages[0])}>
                     <div>
                         About me
@@ -27,7 +27,7 @@ function Nav({currentPage, setCurrentPage, pages}) {
                     </div>
                  </li>
             </ul>
-        </nav>
+        
     );
 }
 
