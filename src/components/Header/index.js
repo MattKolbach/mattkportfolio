@@ -9,7 +9,7 @@ function Header({children, name}) {
             <nav className="navbar navbar-default"> 
                 <div className="container-fluid">         
                     <h1 className="navbar-header">
-                        <a href="/">
+                        <a href="/mattkportfolio/">
                             {name}
                         </a>
                     </h1>
