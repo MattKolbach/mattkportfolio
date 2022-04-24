@@ -33,21 +33,26 @@ body {
   font-family: monospace, Verdana;
 }
 
+.card {
+  border: 10px solid #b3d1ff;
+  background-color: var(--tertiary);
+  border-radius: 20px;
+}
+
 header{
   background-color: var(--tertiary);
   color: var(--light);
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 footer {
   height: 56px;
   background-color: var(--tertiary);
-
   position: fixed;
   width: 100%;
-  bottom: 0;
-  
+  bottom: 0;  
   text-align: center;
   margin-top: 1rem;
 }
@@ -62,6 +67,14 @@ footer div a:hover {
 
 footer h2 a {
   text-align: center;
+}
+
+.project-button {
+  margin-bottom: 20px;
+}
+
+.project-links {
+  margin: 0 10px;
 }
 
 h1,
@@ -83,7 +96,17 @@ h6 {
   margin-right: auto;
 }
 
+.img-project {
+  width: auto;
 
+  
+  padding: 10px 10px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 15px;
+}
 
 p {
   font-size: 1.1rem;
@@ -100,18 +123,30 @@ a:hover {
   color: var(--secondary);
 }
 
-
-
 button {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: .5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
+	background: var(--primary);
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+  margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px 15px;	
+}
+
+.btn-primary {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: var(--tertiary)
+}
+
+.btn-primary:hover {
+  opacity: .8;
+  background: var(--primary);
+  border-color: var(--primary);
+  color: var(--tertiary)
 }
 
 button:hover {
@@ -123,9 +158,7 @@ button[disabled] {
   opacity: .8;
 }
 
-img {
-  max-width: 100%;
-}
+
 
 span[role="img"] {
   cursor: default;
@@ -180,30 +213,8 @@ textarea {
   justify-content: flex-end;
 }
 
-.card {
-  width: 25%;
-  text-align: center;
-}
 
-.img-thumbnail {
-  width: auto;
-  height: 400px;
-  margin-bottom: 50px;
-  cursor: pointer;
-}
 
-button {
-	background: var(--primary);
-	border: 0;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-  margin-top: 20px;
-	margin-bottom: 20px;
-	padding: 10px 15px;	
-}
 
 .navActive {
   color: var(--secondary);
