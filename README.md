@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a React version of my portfolio created just before the end of my bootcamp. This portfoli will be under revision for the forseeable future so be sure to check back in and see what I have been upto.
+This is a React version of my portfolio created just before the end of my bootcamp. This portfolio will be under revision for the forseeable future as I learn and grow. Be sure to check back in and see what I have been upto.
 
 
 
