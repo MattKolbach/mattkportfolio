@@ -5,8 +5,7 @@ import ProjectList from './components/ProjectList';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 import Nav from "./components/Nav";
-
-
+import Resume from './components/Resume';
 
 function App() {
     const [pages] = useState([
@@ -24,7 +23,7 @@ function App() {
         },
         {
             name: 'Resume',
-            component: 'buzz words'
+            component: <Resume />
         },
     ]);
 
