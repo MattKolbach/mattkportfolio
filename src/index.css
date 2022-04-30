@@ -30,7 +30,7 @@ body {
   letter-spacing: .1em;
   background: #b3d1ff;
   color: var(--light);
-  font-family: monospace, Verdana;
+  font-family: sans-serif, Verdana;
 }
 
 .card {

@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import ProjectList from './components/ProjectList';
-import ContactForm from './components/Contact';
+
 import Footer from './components/Footer';
 import Nav from "./components/Nav";
 import Resume from './components/Resume';
@@ -16,10 +16,6 @@ function App() {
         {
             name: 'Portfolio',
             component: <ProjectList></ProjectList>
-        },
-        {
-            name: 'Contact',
-            component: <ContactForm></ContactForm>
         },
         {
             name: 'Resume',

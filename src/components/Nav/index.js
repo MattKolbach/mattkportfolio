@@ -19,9 +19,6 @@ function Nav({currentPage, setCurrentPage, pages}) {
                     </div>
                  </li>
                 <li className={`${currentPage === pages[2] && 'navActive'}`} onClick={()=> setCurrentPage(pages[2])}>
-                   <div>Contact</div>
-                </li>
-                <li className={`${currentPage === pages[3] && 'navActive'}`} onClick={()=> setCurrentPage(pages[3])}>
                     <div>
                         Resume
                     </div>
