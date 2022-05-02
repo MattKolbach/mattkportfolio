@@ -4,7 +4,7 @@ import selfImage from "../../assets/images/mkselfie.jpg";
 function About() {
 
     return (
-        <section className="d-flex my-5 mx-5" >
+        <section className="my-5 mx-5" >
             {/* <h1 id="about">Who am I?</h1> */}
             <img src={selfImage} className="my-2 photo" style={{ width: "20%" }} alt="A selfie of Matt Kolbach" />
             <div className="my-4 mx-4">
