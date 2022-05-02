@@ -3,7 +3,7 @@ import React from 'react'
 function Resume() {
 
     return (
-        <section className="my-5" >
+        <section className="my-5 mx-5" >
             <h1>Resume</h1>
             
             <div className="flex-row my-2">

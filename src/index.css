@@ -1,9 +1,11 @@
 
 main {
 	margin: 0 auto;
-	max-width: 90%;
-  padding: 50px 30px;
+	max-width: 100%;
+  padding: 0px 30px;
+  
 }
+
 :root {
   --primary: #8c54ff;
   --secondary: #9429f8;
@@ -28,37 +30,55 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: #b3d1ff;
-  color: var(--light);
+  background: #000000;
+  background-image: url(./assets/images/keyboard02.jpg);
+  background-position: center center;
+  background-size: cover;
+  color: var(--tertiary);
   font-family: sans-serif, Verdana;
+  height: 100vh;
+}
+
+.photo {
+  opacity: 1.0;
 }
 
 .card {
-  border: 10px solid #b3d1ff;
-  background-color: var(--tertiary);
+  margin: 10px;
+  min-width: 300px;
   border-radius: 20px;
+  background-color: rgba(54, 54, 54, 0.4);
+}
+
+#centerfold {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .92);
+  padding-left: 0;
+  padding-right: 0;
 }
 
 header{
-  background-color: var(--tertiary);
-  color: var(--light);
+  background-color: rgba(0, 0, 0, .92);
+  color: var(--tertiary);
   position: sticky;
   top: 0;
   z-index: 10;
+  width: 100%;
 }
 
 footer {
   height: 56px;
-  background-color: var(--tertiary);
+  background-color: rgba(0, 0, 0, .92);
   position: fixed;
-  width: 100%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   bottom: 0;  
   text-align: center;
   margin-top: 1rem;
 }
 
 footer div {
-  margin: 0 10px;
+  margin: 0 30px;
 }
 
 footer div a:hover {
@@ -101,9 +121,7 @@ h6 {
 }
 
 .img-project {
-  width: auto;
-
-  
+  width: auto;  
   padding: 10px 10px;
 }
 
@@ -120,7 +138,7 @@ p {
 a {
   text-decoration: none;
   font-weight: bold;
-  color: var(--light);
+  color: var(--tertiary);
 }
 
 a:hover {

@@ -6,10 +6,10 @@ function ProjectList() {
 
 
   return (
-    <div>
-      <div className="flex-row">
+    <div className="container-fluid">
+      <div className="row justify-content-evenly">
         
-        <div className="card col-4">
+        <div className="card col">
           <img
             src={require('../../assets/images/3GPnP.PNG')}
             alt="a freshly baked pizza with a wood fired oven in the background"
@@ -30,7 +30,7 @@ function ProjectList() {
           </div>
         </div>
 
-        <div className="card col-4">
+        <div className="card col">
         <img
           src={require('../../assets/images/dinnerplanner.PNG')}
           alt="a group of people clinking glasses"
@@ -50,7 +50,7 @@ function ProjectList() {
           </div>
         </div>
 
-        <div className="card col-4">
+        <div className="card col">
         <img
           src={require('../../assets/images/mkportfolio.PNG')}
           alt="a photographer's backdrop with flash tripods"
@@ -70,7 +70,7 @@ function ProjectList() {
           </div>
         </div>
 
-        <div className="card col-4">
+        <div className="card col">
         <img
           src={require('../../assets/images/budgettrackerpwa.png')}
           alt="a graph showing a budget balance"
@@ -90,7 +90,7 @@ function ProjectList() {
           </div>
         </div>
 
-        <div className="card col-4">
+        <div className="card col">
         <img
           src={require('../../assets/images/weatherdashboard.png')}
           alt="a five day forcast for a chosen city"
@@ -110,7 +110,7 @@ function ProjectList() {
           </div>
         </div>
 
-        <div className="card col-4">
+        <div className="card col">
         <img
           src={require('../../assets/images/runbuddy.jpg')}
           alt="a woman in running gear bending down to tie her shoe"

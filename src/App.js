@@ -26,7 +26,7 @@ function App() {
     const [currentPage, setCurrentPage] = useState(pages[0]);
 
     return (
-        <div>
+        <div id="centerfold" className="container d-flex flex-column">
             <Header name="Matt Kolbach">
                 <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} pages={pages} />
             </Header>
