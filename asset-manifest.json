@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/mattkportfolio/static/css/main.fe3cf031.css",
-    "main.js": "/mattkportfolio/static/js/main.30292bca.js",
+    "main.css": "/mattkportfolio/static/css/main.c61718eb.css",
+    "main.js": "/mattkportfolio/static/js/main.af2d9134.js",
     "static/js/787.daf1c710.chunk.js": "/mattkportfolio/static/js/787.daf1c710.chunk.js",
     "static/media/3GPnP.PNG": "/mattkportfolio/static/media/3GPnP.305426ba0fecdfb9ec58.PNG",
     "static/media/dinnerplanner.PNG": "/mattkportfolio/static/media/dinnerplanner.e7b2ab82b67e47f51596.PNG",
+    "static/media/keyboard02.jpg": "/mattkportfolio/static/media/keyboard02.e0d121425f3e7edc0705.jpg",
     "static/media/runbuddy.jpg": "/mattkportfolio/static/media/runbuddy.000e1b5ff4f0b912c97f.jpg",
     "static/media/mkportfolio.PNG": "/mattkportfolio/static/media/mkportfolio.c0753dc38aef421a97b3.PNG",
     "static/media/mkselfie.jpg": "/mattkportfolio/static/media/mkselfie.3de50358db415373191b.jpg",
     "static/media/weatherdashboard.png": "/mattkportfolio/static/media/weatherdashboard.775e25be14a1c143a4b3.png",
     "static/media/budgettrackerpwa.png": "/mattkportfolio/static/media/budgettrackerpwa.d7e722c0dab6240614ab.png",
     "index.html": "/mattkportfolio/index.html",
-    "main.fe3cf031.css.map": "/mattkportfolio/static/css/main.fe3cf031.css.map",
-    "main.30292bca.js.map": "/mattkportfolio/static/js/main.30292bca.js.map",
+    "main.c61718eb.css.map": "/mattkportfolio/static/css/main.c61718eb.css.map",
+    "main.af2d9134.js.map": "/mattkportfolio/static/js/main.af2d9134.js.map",
     "787.daf1c710.chunk.js.map": "/mattkportfolio/static/js/787.daf1c710.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe3cf031.css",
-    "static/js/main.30292bca.js"
+    "static/css/main.c61718eb.css",
+    "static/js/main.af2d9134.js"
   ]
 }
