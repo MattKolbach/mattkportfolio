@@ -32,7 +32,6 @@ function App() {
             </Header>
             <main>
                 {currentPage.component}
-
             </main>
             <Footer></Footer>
         </div>
